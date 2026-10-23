@@ -1,46 +1,54 @@
-# Sales and inventory analysis
+# Sales and Inventory Performance Analysis | Power BI
 
-**DAT 300 | Academic coursework | Private review draft**
+Power BI analysis of sales and inventory data focused on identifying sales trends, product performance, inventory patterns, and data gaps that affect business decision-making.
 
-An academic analysis of course-provided sales and inventory data, followed by a proposal for better-connected reporting. The strongest result is a clear boundary between questions the available data can answer and inventory decisions that need more evidence.
+**Tools:** Power BI | Data Analysis | Data Visualization | Data Validation | Business Analysis
 
-[Read the one-page PDF](case-study.pdf)
+## Business Questions
 
-## Business questions
+- Which periods show stronger sales performance?
+- Which products generate the most revenue and profit?
+- What inventory trends are visible in the available data?
+- Is the available inventory data sufficient to support planning decisions?
 
-Which periods have stronger sales, which products generate the most revenue and profit, and is the inventory data sufficient for planning?
+## Analysis
 
-## Work documented in the reports
+- Created Power BI visualizations for sales over time, revenue by product, and inventory balances.
+- Compared product performance using revenue, profit, and profit-margin measures.
+- Reviewed data structure, field relevance, date and product consistency, and missing information.
+- Evaluated whether the available sales and inventory sources could support broader inventory and business-planning decisions.
 
-- Created Power BI visuals for sales over time, revenue by product and inventory balances. The later gap analysis also included profit margin and total profit comparisons.
-- Reviewed field relevance, date and product consistency, missing information, and the limits of combining the two sources.
+## Key Findings
 
-## Selected findings
+- Staples led the preliminary revenue comparison, while the 3-ring staple pack led the later total-profit comparison, showing the importance of distinguishing between revenue and profit measures.
+- November, September, and December showed the strongest sales results in the month-level comparison.
+- The available inventory data covered only Bike and Car from January through May 2020.
+- Both inventory balances declined by May, but the limited product and date coverage was not sufficient to support conclusions about the full product catalog.
 
-- Staples led the preliminary revenue comparison. The 3-ring staple pack led the later total-profit comparison. These are different measures.
-- The gap-analysis report identified November, September and December as the strongest sales months in its month-level comparison. This is a descriptive result, not a demand forecast.
-- Inventory covered only Bike and Car from January through May 2020. Both balances were lower by May; this small extract cannot support inventory conclusions for the full sales catalog.
+## Recommendations
 
-## Recommendation
+- Expand inventory coverage across key products.
+- Include stock-on-hand, reorder levels, stockouts, replenishment dates, and product-cost information.
+- Standardize product and date fields across data sources.
+- Validate data relationships and calculations before operational use.
+- Connect sales and inventory information more consistently to support stronger planning and reporting.
 
-Collect inventory coverage for key products, reorder levels, stockouts, replenishment dates and product costs. Standardize product and date fields, validate the model and test reporting before operational use.
+## Skills Demonstrated
 
-## Scope and evidence
+- Power BI
+- Data Visualization
+- Sales and Inventory Analysis
+- KPI and Trend Analysis
+- Data Validation
+- Data Quality Assessment
+- Gap Analysis
+- Business Analysis
+- Analytical Communication
 
-The reports contain Power BI screenshots. No PBIX file, underlying model, DAX definitions or executable workflow was available for this review. ETL, broader integration and production reporting were proposed. No business impact or deployed dashboard is claimed.
+## Project Context
 
-## Skills demonstrated
+Academic data analytics project completed through Southern New Hampshire University (DAT 300). The analysis uses course-provided sales and inventory datasets and is presented here as a portfolio case study.
 
-Power BI visualization; data validation; business analysis; gap analysis.
+[View the one-page case study PDF](case-study.pdf)
 
-## Source and attribution
-
-Olga Solodovnikova, DAT 300 Project One Preliminary Data Assessment and Project Two Gap Analysis Proposal, Southern New Hampshire University. Source data credited in both reports to uCertify sales and inventory course datasets.
-
-This is a new portfolio adaptation of the coursework, not the original assignment submission. See the [source register](../../SOURCES.md). Raw course data and assignment templates are not redistributed.
-
-## Before sharing publicly
-
-Locate the PBIX file and confirm permission to share course-derived visuals or data. Recheck filters, aggregation, chart titles and calculations before adding screenshots or runnable material.
-
-[Back to portfolio](../../README.md)
+[Back to Data Analytics Portfolio](../../README.md)
